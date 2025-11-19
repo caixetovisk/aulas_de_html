@@ -1,0 +1,26 @@
+body {
+    background-color: #fc369c;
+}
+
+#menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+}
+
+#menu li {
+    text-align: center;
+    padding: 5px
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #b3ff02;
+}
+
+#menu li a:hover {
+    color: #e13e02;
+    font-size: 1.1em;
+}
